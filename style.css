@@ -1,4 +1,38 @@
-body {background-color:tan;}
-h1{color:green;}
+:root{
+
+    --white-color:#ffd;
+    
+}
 
 
+body {background-color:black; font-family:arial; color:var(--white-color)}
+h1{color:grey;font-family:verdana; font-size:20px}
+input[type="range"] {
+             width:40%}
+
+             .maindiv{
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+            }
+            
+
+.card {
+    font-size:16px;
+    background-color:white;
+    color:black;
+    width:300px;
+    padding: 20px;
+    border-radius: 25px;
+    box-align:center;
+
+}
+ 
+ fieldset {
+ font-size:14px;
+ text-align: left;
+ padding-left:30px;
+ 
+}
